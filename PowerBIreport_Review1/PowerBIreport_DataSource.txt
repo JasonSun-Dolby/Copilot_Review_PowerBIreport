@@ -1,0 +1,16 @@
+Power BI report:
+	page5 'Import and Export_Total'
+    page6 'Recordings/Import/Export_Trend
+Data Source tables:
+	ap3-prod-0e613121.analytics_184529778.monthly_audio_imports_aggregared,
+	ap3-prod-0e613121.analytics_184529778.monthly_audio_exports_aggregared,
+	ap3-prod-0e613121.analytics_184529778.monthly_audio_recording_aggregared,
+	ap3-prod-0e613121.analytics_184529778.monthly_video_imports_aggregared,
+	ap3-prod-0e613121.analytics_184529778.monthly_video_exports_aggregared,
+	ap3-prod-0e613121.analytics_184529778.monthly_video_recording_aggregared.
+
+
+Power BI report:
+	page7 'Sharing'
+Data Source table:
+	ap3-prod-0e613121.analytics_184529778.monthly_share_locations_aggregared.

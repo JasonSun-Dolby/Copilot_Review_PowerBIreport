@@ -1,0 +1,17 @@
+===SCHEMA===
+month	DATE
+country	STRING
+active_audio_users	INT64
+active_video_users	INT64
+active_livestream_users	INT64
+total_active_users	INT64
+===VALUES===
+{'month': datetime.date(2025, 9, 1), 'active_audio_users': 323874, 'active_video_users': 41536, 'active_livestream_users': 40, 'total_active_users': 340823}
+{'month': datetime.date(2025, 10, 1), 'active_audio_users': 331872, 'active_video_users': 42510, 'active_livestream_users': 38, 'total_active_users': 348970}
+{'month': datetime.date(2025, 11, 1), 'active_audio_users': 332924, 'active_video_users': 41923, 'active_livestream_users': 38, 'total_active_users': 349833}
+{'month': datetime.date(2025, 12, 1), 'active_audio_users': 332868, 'active_video_users': 42802, 'active_livestream_users': 38, 'total_active_users': 350180}
+{'month': datetime.date(2026, 1, 1), 'active_audio_users': 340689, 'active_video_users': 45958, 'active_livestream_users': 40, 'total_active_users': 359030}
+{'month': datetime.date(2026, 2, 1), 'active_audio_users': 327891, 'active_video_users': 43585, 'active_livestream_users': 54, 'total_active_users': 345880}
+{'month': datetime.date(2026, 3, 1), 'active_audio_users': 340862, 'active_video_users': 46127, 'active_livestream_users': 42, 'total_active_users': 359776}
+{'month': datetime.date(2026, 4, 1), 'active_audio_users': 344682, 'active_video_users': 46360, 'active_livestream_users': 42, 'total_active_users': 363895}
+{'month': datetime.date(2026, 5, 1), 'active_audio_users': 339718, 'active_video_users': 45212, 'active_livestream_users': 36, 'total_active_users': 358678}

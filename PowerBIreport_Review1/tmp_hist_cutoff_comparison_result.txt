@@ -1,0 +1,11 @@
+{'bin': '0-1m', 'cnt_all': 18375918, 'cnt_cutoff': 17974238, 'pct_all': 0.7436583980030886, 'pct_cutoff': 0.7436627832239279, 'pct_delta_all_minus_cutoff': -4.38522083923143e-06}
+{'bin': '1-5m', 'cnt_all': 4997107, 'cnt_cutoff': 4887588, 'pct_all': 0.20222884028270152, 'pct_cutoff': 0.202218157750658, 'pct_delta_all_minus_cutoff': 1.06825320435322e-05}
+{'bin': '5-10m', 'cnt_all': 598922, 'cnt_cutoff': 585436, 'pct_all': 0.024237884335835947, 'pct_cutoff': 0.024221720284302646, 'pct_delta_all_minus_cutoff': 1.6164051533301e-05}
+{'bin': '10-15m', 'cnt_all': 200531, 'cnt_cutoff': 195951, 'pct_all': 0.00811532584167808, 'pct_cutoff': 0.008107240264400187, 'pct_delta_all_minus_cutoff': 8.085577277891845e-06}
+{'bin': '15-20m', 'cnt_all': 107709, 'cnt_cutoff': 105365, 'pct_all': 0.004358895288415777, 'pct_cutoff': 0.004359351932159191, 'pct_delta_all_minus_cutoff': -4.5664374341385094e-07}
+{'bin': '20-25m', 'cnt_all': 71244, 'cnt_cutoff': 69727, 'pct_all': 0.0028831865111355005, 'pct_cutoff': 0.002884871942045878, 'pct_delta_all_minus_cutoff': -1.6854309103776603e-06}
+{'bin': '25-30m', 'cnt_all': 54050, 'cnt_cutoff': 52946, 'pct_all': 0.0021873593695872465, 'pct_cutoff': 0.0021905779661187353, 'pct_delta_all_minus_cutoff': -3.2185965314888466e-06}
+{'bin': '0.5-1h', 'cnt_all': 171980, 'cnt_cutoff': 168595, 'pct_all': 0.006959890182823583, 'pct_cutoff': 0.006975418203410799, 'pct_delta_all_minus_cutoff': -1.5528020587215856e-05}
+{'bin': '1-8h', 'cnt_all': 127532, 'cnt_cutoff': 124959, 'pct_all': 0.005161115913454223, 'pct_cutoff': 0.005170030447403601, 'pct_delta_all_minus_cutoff': -8.914533949378259e-06}
+{'bin': '8-24h', 'cnt_all': 5013, 'cnt_cutoff': 4922, 'pct_all': 0.0002028720170164823, 'pct_cutoff': 0.000203641913444574, 'pct_delta_all_minus_cutoff': -7.698964280917152e-07}
+{'bin': '>24h', 'cnt_all': 154, 'cnt_cutoff': 150, 'pct_all': 6.2322542630237926e-06, 'pct_cutoff': 6.2060721285424825e-06, 'pct_delta_all_minus_cutoff': 2.6182134481310007e-08}

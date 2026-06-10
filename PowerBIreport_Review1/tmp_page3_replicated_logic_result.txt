@@ -1,0 +1,28 @@
+===MAX_BY_MONTH===
+{'month': datetime.date(2025, 11, 1), 'max_duration_hour': 54.60986111111111}
+{'month': datetime.date(2025, 12, 1), 'max_duration_hour': 81.83756944444444}
+{'month': datetime.date(2026, 1, 1), 'max_duration_hour': 55.2654}
+{'month': datetime.date(2026, 2, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 3, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 4, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 5, 1), 'max_duration_hour': 62.67357222222222}
+===MEAN_MEDIAN_BY_MONTH===
+{'month': datetime.date(2025, 11, 1), 'Mean_duration_sec': 281.21764258020585, 'Median_duration_sec': 29.469332}
+{'month': datetime.date(2025, 12, 1), 'Mean_duration_sec': 233.2184397099427, 'Median_duration_sec': 28.544}
+{'month': datetime.date(2026, 1, 1), 'Mean_duration_sec': 262.6980911232251, 'Median_duration_sec': 28.530666}
+{'month': datetime.date(2026, 2, 1), 'Mean_duration_sec': 325.84443112198807, 'Median_duration_sec': 28.821}
+{'month': datetime.date(2026, 3, 1), 'Mean_duration_sec': 402.32871399103334, 'Median_duration_sec': 28.117}
+{'month': datetime.date(2026, 4, 1), 'Mean_duration_sec': 441.34962295469364, 'Median_duration_sec': 28.559999465942383}
+{'month': datetime.date(2026, 5, 1), 'Mean_duration_sec': 353.3002143742754, 'Median_duration_sec': 28.843}
+===HIST_PCT===
+{'bin': '0-1m', 'count': 17812369, 'pct_of_total': 0.7437689967828023}
+{'bin': '1-5m', 'count': 4840882, 'pct_of_total': 0.20213470474836476}
+{'bin': '5-10m', 'count': 579583, 'pct_of_total': 0.024200928380855285}
+{'bin': '10-15m', 'count': 193986, 'pct_of_total': 0.008100032769920086}
+{'bin': '15-20m', 'count': 104321, 'pct_of_total': 0.004356002590861368}
+{'bin': '20-25m', 'count': 69131, 'pct_of_total': 0.0028866174126862014}
+{'bin': '25-30m', 'count': 52490, 'pct_of_total': 0.0021917598181987632}
+{'bin': '0.5-1h', 'count': 167197, 'pct_of_total': 0.006981437727631523}
+{'bin': '1-8h', 'count': 123811, 'pct_of_total': 0.005169822344275235}
+{'bin': '8-24h', 'count': 4878, 'pct_of_total': 0.000203684595030931}
+{'bin': '>24h', 'count': 144, 'pct_of_total': 6.0128293736068195e-06}

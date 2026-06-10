@@ -1,0 +1,67 @@
+=== RESOLVED TABLE NAMES ===
+  audio_imports: monthly_audio_imports_aggregated
+  audio_exports: monthly_audio_exports_aggregated
+  video_imports: monthly_video_imports_aggregated
+  video_exports: monthly_video_exports_aggregated
+
+=== AUDIO_IMPORTS monthly totals (monthly_audio_imports_aggregated) ===
+  month  |  num_imports  |  total_track_duration  |  total_import_duration  |  num_batch_imports
+  2025-11  |             144,913  |          24,544,467  |             329,908  |              36,779
+  2025-12  |             145,771  |          26,399,199  |             416,756  |              34,566
+  2026-01  |             146,302  |          24,142,440  |             372,513  |              34,243
+  2026-02  |             150,332  |          25,525,315  |             303,966  |              38,063
+  2026-03  |             157,453  |          31,345,483  |             416,265  |              38,502
+  2026-04  |             152,681  |          32,873,442  |             617,877  |              37,919
+  2026-05  |             159,983  |          34,619,748  |             623,724  |              36,667
+
+=== AUDIO_EXPORTS monthly totals (monthly_audio_exports_aggregated) ===
+  month  |  num_exports  |  total_duration  |  total_exported_track_duration  |  total_exporting_time
+  2025-11  |           1,221,707  |         256,161,768  |          48,963,141  |          12,789,753
+  2025-12  |           1,256,856  |         247,669,288  |          46,241,974  |           1,062,683
+  2026-01  |           1,277,111  |         244,385,354  |          46,421,540  |           1,019,491
+  2026-02  |           1,199,625  |         248,111,065  |          50,263,871  |           1,175,053
+  2026-03  |           1,279,952  |         274,016,474  |          62,252,904  |           1,598,320
+  2026-04  |           1,238,133  |         260,681,206  |          58,993,236  |           1,580,135
+  2026-05  |           1,338,526  |         289,630,209  |          65,610,568  |           1,773,296
+
+=== VIDEO_IMPORTS monthly totals (monthly_video_imports_aggregated) ===
+  month  |  num_imports  |  total_track_duration  |  total_import_duration  |  num_batch_imports
+  2025-11  |             101,068  |           5,878,416  |             141,622  |              10,976
+  2025-12  |             102,441  |           5,620,671  |             152,707  |              12,752
+  2026-01  |             101,232  |           5,393,755  |             130,071  |              11,083
+  2026-02  |             100,055  |           6,076,719  |             157,897  |              11,570
+  2026-03  |             109,142  |           6,726,451  |             173,770  |              14,983
+  2026-04  |             104,861  |           6,699,136  |             203,497  |              12,310
+  2026-05  |             109,796  |           6,332,236  |             164,124  |              12,021
+
+=== VIDEO_EXPORTS monthly totals (monthly_video_exports_aggregated) ===
+  month  |  num_exports  |  total_duration  |  total_exported_track_duration  |  total_exporting_time
+  2025-11  |             320,861  |          48,466,314  |           7,386,719  |             207,462
+  2025-12  |             319,266  |          47,383,415  |           7,406,095  |             204,367
+  2026-01  |             346,076  |          48,337,634  |           7,149,714  |             195,997
+  2026-02  |             319,343  |          46,091,569  |           7,188,383  |             188,176
+  2026-03  |             347,086  |          52,049,452  |           8,463,286  |             229,373
+  2026-04  |             333,700  |          50,915,468  |           8,198,227  |             205,791
+  2026-05  |             363,976  |          55,591,698  |           8,656,273  |             218,043
+
+=== GRAND TOTALS (all months) ===
+  audio_imports (monthly_audio_imports_aggregated):
+    num_imports: 1,057,435
+    total_track_duration: 199,450,093
+    total_import_duration: 3,081,009
+    num_batch_imports: 256,739
+  audio_exports (monthly_audio_exports_aggregated):
+    num_exports: 8,811,910
+    total_duration: 1,820,655,364
+    total_exported_track_duration: 378,747,233
+    total_exporting_time: 20,998,731
+  video_imports (monthly_video_imports_aggregated):
+    num_imports: 728,595
+    total_track_duration: 42,727,384
+    total_import_duration: 1,123,687
+    num_batch_imports: 85,695
+  video_exports (monthly_video_exports_aggregated):
+    num_exports: 2,350,308
+    total_duration: 348,835,550
+    total_exported_track_duration: 54,448,696
+    total_exporting_time: 1,449,208

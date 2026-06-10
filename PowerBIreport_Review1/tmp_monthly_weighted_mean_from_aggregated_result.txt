@@ -1,0 +1,14 @@
+{'source': 'audio', 'month': '2025-11', 'mean_duration_sec': 133.16772952267615}
+{'source': 'audio', 'month': '2025-12', 'mean_duration_sec': 124.21310493529033}
+{'source': 'audio', 'month': '2026-01', 'mean_duration_sec': 120.03423341864558}
+{'source': 'audio', 'month': '2026-02', 'mean_duration_sec': 129.82121644235463}
+{'source': 'audio', 'month': '2026-03', 'mean_duration_sec': 135.29165178542482}
+{'source': 'audio', 'month': '2026-04', 'mean_duration_sec': 132.2520069721492}
+{'source': 'audio', 'month': '2026-05', 'mean_duration_sec': 129.7901563764233}
+{'source': 'video', 'month': '2025-11', 'mean_duration_sec': 89.5036296505276}
+{'source': 'video', 'month': '2025-12', 'mean_duration_sec': 87.33625759502166}
+{'source': 'video', 'month': '2026-01', 'mean_duration_sec': 84.75941934654938}
+{'source': 'video', 'month': '2026-02', 'mean_duration_sec': 83.14130438298794}
+{'source': 'video', 'month': '2026-03', 'mean_duration_sec': 86.46067823443971}
+{'source': 'video', 'month': '2026-04', 'mean_duration_sec': 85.06581703849679}
+{'source': 'video', 'month': '2026-05', 'mean_duration_sec': 86.08951010844342}

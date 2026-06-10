@@ -1,0 +1,28 @@
+===WEIGHTED MEAN/MEDIAN vs PowerBI===
+  2025-11: weighted_mean=89.5036 target=17460 delta=-1.737e+04  *** MISMATCH
+  2025-11: p50_median=40.0078 target=9085.55 delta=-9046  *** MISMATCH
+  2025-12: weighted_mean=87.3363 target=16177.2 delta=-1.609e+04  *** MISMATCH
+  2025-12: p50_median=40.3211 target=8088.37 delta=-8048  *** MISMATCH
+  2026-01: weighted_mean=84.7594 target=16836.4 delta=-1.675e+04  *** MISMATCH
+  2026-01: p50_median=40.213 target=8209.92 delta=-8170  *** MISMATCH
+  2026-02: weighted_mean=83.1413 target=18035.4 delta=-1.795e+04  *** MISMATCH
+  2026-02: p50_median=38.72 target=9378.14 delta=-9339  *** MISMATCH
+  2026-03: weighted_mean=86.4607 target=17683.9 delta=-1.76e+04  *** MISMATCH
+  2026-03: p50_median=39.467 target=8606.06 delta=-8567  *** MISMATCH
+  2026-04: weighted_mean=85.0658 target=18922.3 delta=-1.884e+04  *** MISMATCH
+  2026-04: p50_median=38.912 target=8589.37 delta=-8550  *** MISMATCH
+  2026-05: weighted_mean=86.0895 target=19653.4 delta=-1.957e+04  *** MISMATCH
+  2026-05: p50_median=40.756 target=9803.52 delta=-9763  *** MISMATCH
+===BEST-FIT HISTOGRAM from video_recording_events_stripped===
+  best_sse=4.4946623761689724e-11  max_abs_diff=4.220212243555288e-06  best_hour=2026-05-29T15:00:00+00:00
+  0-1m: bq=0.6348210716  powerbi=0.6348252918  delta=-4.22021e-06
+  1-5m: bq=0.3259935615  powerbi=0.3259909991  delta=2.56241e-06
+  5-10m: bq=0.02659610133  powerbi=0.02659326527  delta=2.83606e-06
+  10-15m: bq=0.005500586481  powerbi=0.005503870771  delta=-3.28429e-06
+  15-20m: bq=0.002301637428  powerbi=0.002301027749  delta=6.0968e-07
+  20-25m: bq=0.00129712852  powerbi=0.001296770868  delta=3.57652e-07
+  25-30m: bq=0.0007739726651  powerbi=0.0007738661175  delta=1.06548e-07
+  0.5-1h: bq=0.001903476089  powerbi=0.001903603682  delta=-1.27593e-07
+  1-8h: bq=0.0008025310148  powerbi=0.0008014307266  delta=1.10029e-06
+  8-24h: bq=8.69167164e-06  powerbi=8.639653624e-06  delta=5.2018e-08
+  >24h: bq=1.241667377e-06  powerbi=1.234236232e-06  delta=7.43115e-09

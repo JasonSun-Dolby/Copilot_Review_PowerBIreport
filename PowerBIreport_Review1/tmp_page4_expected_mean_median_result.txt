@@ -1,0 +1,7 @@
+{'month': '2025-11', 'mean_duration_sec_avg': 93.36897325747665, 'mean_duration_sec_weighted': 89.50362965052771, 'median_duration_sec_p50': 40.00779342651367}
+{'month': '2025-12', 'mean_duration_sec_avg': 86.97427382951314, 'mean_duration_sec_weighted': 87.33625759502166, 'median_duration_sec_p50': 40.32108348083496}
+{'month': '2026-01', 'mean_duration_sec_avg': 86.34027585396406, 'mean_duration_sec_weighted': 84.75941934654945, 'median_duration_sec_p50': 40.213}
+{'month': '2026-02', 'mean_duration_sec_avg': 94.42622125358628, 'mean_duration_sec_weighted': 83.14130438298788, 'median_duration_sec_p50': 38.720001220703125}
+{'month': '2026-03', 'mean_duration_sec_avg': 91.1541732804586, 'mean_duration_sec_weighted': 86.46067823443973, 'median_duration_sec_p50': 39.467}
+{'month': '2026-04', 'mean_duration_sec_avg': 100.11793456319573, 'mean_duration_sec_weighted': 85.06581703849672, 'median_duration_sec_p50': 38.912}
+{'month': '2026-05', 'mean_duration_sec_avg': 102.36145133377521, 'mean_duration_sec_weighted': 86.08951010844339, 'median_duration_sec_p50': 40.75600015258789}

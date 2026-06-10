@@ -1,0 +1,2 @@
+table=audio_recording_events_stripped	best_sse=9.298586669180742e-11	best_max_abs=5.630233666287232e-06	best_hour=2026-05-29T20:00:00+00:00
+table=audio_duration_view	best_sse=5.290056918574528e-07	best_max_abs=0.0004327863704399401	best_hour=2025-06-04T09:00:00+00:00

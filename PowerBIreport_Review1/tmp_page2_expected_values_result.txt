@@ -1,0 +1,8 @@
+rows	7
+{'month': datetime.date(2025, 11, 1), 'audio_tracks': 4710322, 'video_tracks': 421517, 'livestream_tracks': 1056, 'audio_duration_sec': 627262886.060711, 'video_duration_sec': 37727301.45940144, 'livestream_duration_sec': 360148.45510423183}
+{'month': datetime.date(2025, 12, 1), 'audio_tracks': 4785624, 'video_tracks': 435140, 'livestream_tracks': 1044, 'audio_duration_sec': 594437216.0928439, 'video_duration_sec': 38003499.12989773, 'livestream_duration_sec': 305748.0316711664}
+{'month': datetime.date(2026, 1, 1), 'audio_tracks': 4925224, 'video_tracks': 490216, 'livestream_tracks': 947, 'audio_duration_sec': 591195487.2551153, 'video_duration_sec': 41550423.51438805, 'livestream_duration_sec': 394471.9507666826}
+{'month': datetime.date(2026, 2, 1), 'audio_tracks': 4552469, 'video_tracks': 454848, 'livestream_tracks': 851, 'audio_duration_sec': 591007063.3961097, 'video_duration_sec': 37816656.0159933, 'livestream_duration_sec': 265950.2779111862}
+{'month': datetime.date(2026, 3, 1), 'audio_tracks': 4815902, 'video_tracks': 494906, 'livestream_tracks': 1217, 'audio_duration_sec': 651551336.416731, 'video_duration_sec': 42789908.42229362, 'livestream_duration_sec': 1373796.8904047012}
+{'month': datetime.date(2026, 4, 1), 'audio_tracks': 4841230, 'video_tracks': 488135, 'livestream_tracks': 899, 'audio_duration_sec': 640262383.7137778, 'video_duration_sec': 41523602.60008663, 'livestream_duration_sec': 599095.408762455}
+{'month': datetime.date(2026, 5, 1), 'audio_tracks': 4578446, 'video_tracks': 466276, 'livestream_tracks': 1007, 'audio_duration_sec': 594237222.3010098, 'video_duration_sec': 40141472.41532456, 'livestream_duration_sec': 461608.17931449413}

@@ -1,0 +1,7 @@
+{'month': datetime.date(2025, 11, 1), 'max_duration_hour': 54.60986111111111}
+{'month': datetime.date(2025, 12, 1), 'max_duration_hour': 81.83756944444444}
+{'month': datetime.date(2026, 1, 1), 'max_duration_hour': 55.2654}
+{'month': datetime.date(2026, 2, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 3, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 4, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 5, 1), 'max_duration_hour': 62.67357222222222}

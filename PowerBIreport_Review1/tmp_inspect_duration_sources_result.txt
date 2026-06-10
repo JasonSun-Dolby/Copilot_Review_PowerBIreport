@@ -1,0 +1,37 @@
+===schema_audio_duration_view===
+{'table_name': 'audio_duration_view', 'column_name': 'event_timestamp', 'data_type': 'INT64'}
+{'table_name': 'audio_duration_view', 'column_name': 'country', 'data_type': 'STRING'}
+{'table_name': 'audio_duration_view', 'column_name': 'duration_sec', 'data_type': 'FLOAT64'}
+===schema_monthly_audio_recordings===
+{'table_name': 'monthly_audio_recordings', 'column_name': 'month', 'data_type': 'STRING'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'country', 'data_type': 'STRING'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'num_tracks', 'data_type': 'INT64'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'total_duration_sec', 'data_type': 'FLOAT64'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'min_duration_sec', 'data_type': 'FLOAT64'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'max_duration_sec', 'data_type': 'FLOAT64'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'mean_duration_sec', 'data_type': 'FLOAT64'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'stddev_duration_sec', 'data_type': 'FLOAT64'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'median_duration_sec', 'data_type': 'FLOAT64'}
+{'table_name': 'monthly_audio_recordings', 'column_name': 'num_lossless', 'data_type': 'INT64'}
+===sample_audio_duration_view===
+{'event_timestamp': 1772320772220000, 'country': 'United States', 'duration_sec': 0.0014965985901653767}
+{'event_timestamp': 1758868826450000, 'country': 'India', 'duration_sec': 0.0019047260284423828}
+{'event_timestamp': 1749316034718000, 'country': 'United Kingdom', 'duration_sec': 0.002645730972290039}
+{'event_timestamp': 1776189575667000, 'country': 'India', 'duration_sec': 0.0026458334177732468}
+{'event_timestamp': 1776512724011000, 'country': 'Vietnam', 'duration_sec': 0.0026458334177732468}
+{'event_timestamp': 1752587692121000, 'country': 'India', 'duration_sec': 0.0026458334177732468}
+{'event_timestamp': 1780072950315000, 'country': 'Greece', 'duration_sec': 0.0026458334177732468}
+{'event_timestamp': 1775843606534000, 'country': 'India', 'duration_sec': 0.0026458334177732468}
+{'event_timestamp': 1752851665921000, 'country': 'India', 'duration_sec': 0.0026458334177732468}
+{'event_timestamp': 1774140983315000, 'country': 'India', 'duration_sec': 0.0026458334177732468}
+===sample_monthly_audio_recordings===
+{'month': '2025-06', 'country': '', 'num_tracks': 16, 'total_duration_sec': 1033.0413139648438, 'min_duration_sec': 2.944, 'max_duration_sec': 241.66, 'mean_duration_sec': 64.56508212280274, 'stddev_duration_sec': 73.21789499662373, 'median_duration_sec': 25.928, 'num_lossless': 0}
+{'month': '2025-06', 'country': 'Afghanistan', 'num_tracks': 11881, 'total_duration_sec': 1075297.8994797103, 'min_duration_sec': 0.47866666316986084, 'max_duration_sec': 29396.277, 'mean_duration_sec': 90.50567287936288, 'stddev_duration_sec': 478.019041738491, 'median_duration_sec': 21.639999389648438, 'num_lossless': 1714}
+{'month': '2025-06', 'country': 'Albania', 'num_tracks': 633, 'total_duration_sec': 111077.53858205996, 'min_duration_sec': 0.5400000214576721, 'max_duration_sec': 3344.694, 'mean_duration_sec': 175.4779440474881, 'stddev_duration_sec': 401.74486755718783, 'median_duration_sec': 39.720001220703125, 'num_lossless': 27}
+{'month': '2025-06', 'country': 'Algeria', 'num_tracks': 27981, 'total_duration_sec': 2851673.4113221616, 'min_duration_sec': 0.03999999910593033, 'max_duration_sec': 176264.42, 'mean_duration_sec': 101.91463533548341, 'stddev_duration_sec': 1194.5389357580068, 'median_duration_sec': 18.816, 'num_lossless': 1910}
+{'month': '2025-06', 'country': 'Andorra', 'num_tracks': 219, 'total_duration_sec': 4273.467997310639, 'min_duration_sec': 1.1399999856948853, 'max_duration_sec': 64.45999908447266, 'mean_duration_sec': 19.51355249913534, 'stddev_duration_sec': 16.046055554298047, 'median_duration_sec': 14.140000343322754, 'num_lossless': 0}
+{'month': '2025-06', 'country': 'Angola', 'num_tracks': 1432, 'total_duration_sec': 375084.7424580752, 'min_duration_sec': 0.02133333310484886, 'max_duration_sec': 16328.149, 'mean_duration_sec': 261.9306860740748, 'stddev_duration_sec': 1064.702592395854, 'median_duration_sec': 34.090664, 'num_lossless': 380}
+{'month': '2025-06', 'country': 'Antigua & Barbuda', 'num_tracks': 74, 'total_duration_sec': 4208.196326469536, 'min_duration_sec': 1.323, 'max_duration_sec': 430.4306640625, 'mean_duration_sec': 56.867517925264, 'stddev_duration_sec': 82.66603835579444, 'median_duration_sec': 27.562, 'num_lossless': 5}
+{'month': '2025-06', 'country': 'Argentina', 'num_tracks': 32851, 'total_duration_sec': 7225486.347397267, 'min_duration_sec': 0.03999999910593033, 'max_duration_sec': 30532.759765625, 'mean_duration_sec': 219.94722679362175, 'stddev_duration_sec': 791.6873888923919, 'median_duration_sec': 35.912, 'num_lossless': 5435}
+{'month': '2025-06', 'country': 'Armenia', 'num_tracks': 798, 'total_duration_sec': 139011.7515650133, 'min_duration_sec': 1.0399999618530273, 'max_duration_sec': 9736.405, 'mean_duration_sec': 174.20018993109434, 'stddev_duration_sec': 712.0447288948205, 'median_duration_sec': 25.600000381469727, 'num_lossless': 95}
+{'month': '2025-06', 'country': 'Aruba', 'num_tracks': 19, 'total_duration_sec': 6859.714062961883, 'min_duration_sec': 5.78000020980835, 'max_duration_sec': 1281.047, 'mean_duration_sec': 361.0375822611518, 'stddev_duration_sec': 436.34551016707485, 'median_duration_sec': 213.55999755859375, 'num_lossless': 0}

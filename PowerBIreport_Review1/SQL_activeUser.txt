@@ -1,0 +1,37 @@
+WITH filtered_events AS (
+  SELECT
+    user_pseudo_id,
+    FORMAT_DATE('%Y-%m', PARSE_DATE('%Y%m%d', event_date)) AS month,
+    event_name
+  FROM
+    `ap3-stg-59aa907c.analytics_179839452.events_*`,
+    UNNEST(event_params) AS params
+  WHERE
+    event_name IN ('stopped_recording_audio_file', 'stopped_recording_video_file', 'live_streaming_stopped')
+    AND params.key = 'duration'
+    AND (
+      (params.value.double_value IS NOT NULL AND params.value.double_value >= 2.0)
+      OR (params.value.string_value IS NOT NULL AND CAST(params.value.string_value AS FLOAT64) >= 2.0)
+    )
+)
+, deduplicated_users AS (
+  SELECT
+    user_pseudo_id,
+    month
+  FROM
+    filtered_events
+  GROUP BY
+    user_pseudo_id, month
+)
+SELECT
+  month,
+  COUNT(DISTINCT CASE WHEN event_name = 'stopped_recording_audio_file' THEN user_pseudo_id END) AS active_audio_users,
+  COUNT(DISTINCT CASE WHEN event_name = 'stopped_recording_video_file' THEN user_pseudo_id END) AS active_video_users,
+  COUNT(DISTINCT CASE WHEN event_name = 'live_streaming_stopped' THEN user_pseudo_id END) AS active_livestream_users,
+  COUNT(DISTINCT user_pseudo_id) AS total_active_users
+FROM
+  filtered_events
+GROUP BY
+  month
+ORDER BY
+  month

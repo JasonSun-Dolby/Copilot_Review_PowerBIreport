@@ -1,0 +1,77 @@
+=== RESOLVED TABLE NAMES ===
+  audio_recording: monthly_audio_recordings_aggregated
+  audio_imports: monthly_audio_imports_aggregated
+  audio_exports: monthly_audio_exports_aggregated
+  video_recording: monthly_video_recordings_aggregated
+  video_imports: monthly_video_imports_aggregated
+  video_exports: monthly_video_exports_aggregated
+
+=== AUDIO_RECORDING monthly values (monthly_audio_recordings_aggregated) ===
+  Columns: num_tracks, total_duration_sec, min_duration_sec, max_duration_sec, mean_duration_sec, stddev_duration_sec, median_duration_sec, num_lossless
+  2025-11: num_tracks=4,710,322  total_duration_sec=627,262,886.06  min_duration_sec=7,753.08  max_duration_sec=5,858,570.59  mean_duration_sec=62,711.53  stddev_duration_sec=210,560.86  median_duration_sec=19,689.63  num_lossless=772,666
+  2025-12: num_tracks=4,785,624  total_duration_sec=594,437,216.09  min_duration_sec=5,968.45  max_duration_sec=6,052,320.57  mean_duration_sec=52,240.93  stddev_duration_sec=185,412.72  median_duration_sec=14,009.19  num_lossless=789,625
+  2026-01: num_tracks=4,925,224  total_duration_sec=591,195,487.26  min_duration_sec=7,704.28  max_duration_sec=5,556,902.74  mean_duration_sec=58,318.98  stddev_duration_sec=197,569.43  median_duration_sec=16,857.95  num_lossless=836,351
+  2026-02: num_tracks=4,552,469  total_duration_sec=591,007,063.40  min_duration_sec=7,969.84  max_duration_sec=5,733,472.00  mean_duration_sec=71,685.77  stddev_duration_sec=223,130.20  median_duration_sec=19,287.68  num_lossless=776,118
+  2026-03: num_tracks=4,815,902  total_duration_sec=651,551,336.42  min_duration_sec=4,781.78  max_duration_sec=6,466,460.57  mean_duration_sec=88,512.32  stddev_duration_sec=254,987.57  median_duration_sec=13,062.30  num_lossless=839,384
+  2026-04: num_tracks=4,841,230  total_duration_sec=640,262,383.71  min_duration_sec=435.22  max_duration_sec=6,175,255.38  mean_duration_sec=96,655.57  stddev_duration_sec=259,995.92  median_duration_sec=28,052.70  num_lossless=807,389
+  2026-05: num_tracks=5,079,778  total_duration_sec=660,003,590.19  min_duration_sec=610.52  max_duration_sec=6,855,567.64  mean_duration_sec=77,599.77  stddev_duration_sec=236,984.79  median_duration_sec=29,573.98  num_lossless=823,447
+
+=== AUDIO_IMPORTS monthly values (monthly_audio_imports_aggregated) ===
+  Columns: num_imports, total_track_duration, total_import_duration, num_batch_imports
+  2025-11: num_imports=144,913  total_track_duration=24,544,466.70  total_import_duration=329,907.51  num_batch_imports=36,779
+  2025-12: num_imports=145,771  total_track_duration=26,399,198.54  total_import_duration=416,756.37  num_batch_imports=34,566
+  2026-01: num_imports=146,302  total_track_duration=24,142,440.27  total_import_duration=372,512.91  num_batch_imports=34,243
+  2026-02: num_imports=150,332  total_track_duration=25,525,315.45  total_import_duration=303,966.43  num_batch_imports=38,063
+  2026-03: num_imports=157,453  total_track_duration=31,345,482.76  total_import_duration=416,264.56  num_batch_imports=38,502
+  2026-04: num_imports=152,681  total_track_duration=32,873,441.65  total_import_duration=617,877.36  num_batch_imports=37,919
+  2026-05: num_imports=159,983  total_track_duration=34,619,747.98  total_import_duration=623,723.83  num_batch_imports=36,667
+
+=== AUDIO_EXPORTS monthly values (monthly_audio_exports_aggregated) ===
+  Columns: num_exports, total_duration, total_exported_track_duration, total_exporting_time
+  2025-11: num_exports=1,221,707  total_duration=256,161,767.58  total_exported_track_duration=48,963,140.77  total_exporting_time=12,789,752.90
+  2025-12: num_exports=1,256,856  total_duration=247,669,288.12  total_exported_track_duration=46,241,973.82  total_exporting_time=1,062,683.32
+  2026-01: num_exports=1,277,111  total_duration=244,385,354.22  total_exported_track_duration=46,421,540.10  total_exporting_time=1,019,490.90
+  2026-02: num_exports=1,199,625  total_duration=248,111,065.14  total_exported_track_duration=50,263,870.87  total_exporting_time=1,175,052.83
+  2026-03: num_exports=1,279,952  total_duration=274,016,474.04  total_exported_track_duration=62,252,904.00  total_exporting_time=1,598,320.03
+  2026-04: num_exports=1,238,133  total_duration=260,681,205.57  total_exported_track_duration=58,993,235.51  total_exporting_time=1,580,134.95
+  2026-05: num_exports=1,338,526  total_duration=289,630,208.93  total_exported_track_duration=65,610,567.88  total_exporting_time=1,773,295.95
+
+=== VIDEO_RECORDING monthly values (monthly_video_recordings_aggregated) ===
+  Columns: num_tracks, total_duration_sec, min_duration_sec, max_duration_sec, mean_duration_sec, stddev_duration_sec, median_duration_sec, num_lossless
+  2025-11: num_tracks=421,517  total_duration_sec=37,727,301.46  min_duration_sec=667.30  max_duration_sec=521,970.62  mean_duration_sec=17,460.00  stddev_duration_sec=32,489.72  median_duration_sec=9,085.55  num_lossless=90,804
+  2025-12: num_tracks=435,140  total_duration_sec=38,003,499.13  min_duration_sec=819.81  max_duration_sec=437,726.01  mean_duration_sec=16,177.21  stddev_duration_sec=29,396.76  median_duration_sec=8,088.37  num_lossless=94,969
+  2026-01: num_tracks=490,216  total_duration_sec=41,550,423.51  min_duration_sec=867.65  max_duration_sec=599,587.98  mean_duration_sec=16,836.35  stddev_duration_sec=36,572.54  median_duration_sec=8,209.92  num_lossless=104,836
+  2026-02: num_tracks=454,848  total_duration_sec=37,816,656.02  min_duration_sec=1,605.70  max_duration_sec=426,831.00  mean_duration_sec=18,035.41  stddev_duration_sec=30,303.12  median_duration_sec=9,378.14  num_lossless=96,821
+  2026-03: num_tracks=494,906  total_duration_sec=42,789,908.42  min_duration_sec=1,449.78  max_duration_sec=448,759.46  mean_duration_sec=17,683.91  stddev_duration_sec=31,709.06  median_duration_sec=8,606.06  num_lossless=114,892
+  2026-04: num_tracks=488,135  total_duration_sec=41,523,602.60  min_duration_sec=1,194.88  max_duration_sec=500,045.45  mean_duration_sec=18,922.29  stddev_duration_sec=34,888.75  median_duration_sec=8,589.37  num_lossless=106,627
+  2026-05: num_tracks=520,630  total_duration_sec=44,804,421.97  min_duration_sec=1,401.24  max_duration_sec=625,082.80  mean_duration_sec=20,334.19  stddev_duration_sec=39,322.80  median_duration_sec=9,683.33  num_lossless=110,583
+
+=== VIDEO_IMPORTS monthly values (monthly_video_imports_aggregated) ===
+  Columns: num_imports, total_track_duration, total_import_duration, num_batch_imports
+  2025-11: num_imports=101,068  total_track_duration=5,878,416.10  total_import_duration=141,621.79  num_batch_imports=10,976
+  2025-12: num_imports=102,441  total_track_duration=5,620,670.51  total_import_duration=152,706.90  num_batch_imports=12,752
+  2026-01: num_imports=101,232  total_track_duration=5,393,755.19  total_import_duration=130,070.61  num_batch_imports=11,083
+  2026-02: num_imports=100,055  total_track_duration=6,076,718.63  total_import_duration=157,896.69  num_batch_imports=11,570
+  2026-03: num_imports=109,142  total_track_duration=6,726,450.85  total_import_duration=173,770.27  num_batch_imports=14,983
+  2026-04: num_imports=104,861  total_track_duration=6,699,136.34  total_import_duration=203,496.92  num_batch_imports=12,310
+  2026-05: num_imports=109,796  total_track_duration=6,332,235.96  total_import_duration=164,124.14  num_batch_imports=12,021
+
+=== VIDEO_EXPORTS monthly values (monthly_video_exports_aggregated) ===
+  Columns: num_exports, total_duration, total_exported_track_duration, total_exporting_time
+  2025-11: num_exports=320,861  total_duration=48,466,313.74  total_exported_track_duration=7,386,719.26  total_exporting_time=207,461.54
+  2025-12: num_exports=319,266  total_duration=47,383,414.85  total_exported_track_duration=7,406,094.92  total_exporting_time=204,367.16
+  2026-01: num_exports=346,076  total_duration=48,337,633.75  total_exported_track_duration=7,149,713.64  total_exporting_time=195,996.79
+  2026-02: num_exports=319,343  total_duration=46,091,568.60  total_exported_track_duration=7,188,382.85  total_exporting_time=188,176.37
+  2026-03: num_exports=347,086  total_duration=52,049,452.04  total_exported_track_duration=8,463,285.88  total_exporting_time=229,372.62
+  2026-04: num_exports=333,700  total_duration=50,915,468.35  total_exported_track_duration=8,198,226.85  total_exporting_time=205,790.76
+  2026-05: num_exports=363,976  total_duration=55,591,698.24  total_exported_track_duration=8,656,273.05  total_exporting_time=218,042.51
+
+=== SIDE-BY-SIDE: num_tracks by month (for trend visual) ===
+  month          audio_rec     audio_imp     audio_exp     video_rec     video_imp     video_exp
+  2025-11        4,710,322       144,913     1,221,707       421,517       101,068       320,861
+  2025-12        4,785,624       145,771     1,256,856       435,140       102,441       319,266
+  2026-01        4,925,224       146,302     1,277,111       490,216       101,232       346,076
+  2026-02        4,552,469       150,332     1,199,625       454,848       100,055       319,343
+  2026-03        4,815,902       157,453     1,279,952       494,906       109,142       347,086
+  2026-04        4,841,230       152,681     1,238,133       488,135       104,861       333,700
+  2026-05        5,079,778       159,983     1,338,526       520,630       109,796       363,976

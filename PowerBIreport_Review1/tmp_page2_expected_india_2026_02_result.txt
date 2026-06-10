@@ -1,0 +1,4 @@
+rows	3
+{'source': 'audio', 'country': 'India', 'month': datetime.date(2026, 2, 1), 'num_tracks': 2225192, 'total_duration_sec': 169041407.2149578}
+{'source': 'livestream', 'country': 'India', 'month': datetime.date(2026, 2, 1), 'num_tracks': 264, 'total_duration_sec': 1489.459425330162}
+{'source': 'video', 'country': 'India', 'month': datetime.date(2026, 2, 1), 'num_tracks': 195343, 'total_duration_sec': 12355228.302545339}

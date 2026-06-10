@@ -1,0 +1,25 @@
+===SCHEMA===
+event_id	STRING
+event_timestamp	INT64
+country	STRING
+duration_sec	FLOAT64
+===MAX_BY_MONTH===
+{'month': datetime.date(2025, 12, 1), 'max_duration_hour': 55.2654}
+{'month': datetime.date(2026, 1, 1), 'max_duration_hour': 44.7845}
+{'month': datetime.date(2026, 2, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 3, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 4, 1), 'max_duration_hour': 59.65232222222222}
+{'month': datetime.date(2026, 5, 1), 'max_duration_hour': 62.67357222222222}
+{'month': datetime.date(2026, 6, 1), 'max_duration_hour': 35.930055555555555}
+===HISTOGRAM===
+{'bin': '0-1m', 'cnt': 18375918, 'pct': 0.7436583980030886}
+{'bin': '1-5m', 'cnt': 4997107, 'pct': 0.20222884028270152}
+{'bin': '5-10m', 'cnt': 598922, 'pct': 0.024237884335835947}
+{'bin': '10-15m', 'cnt': 200531, 'pct': 0.00811532584167808}
+{'bin': '15-20m', 'cnt': 107709, 'pct': 0.004358895288415777}
+{'bin': '20-25m', 'cnt': 71244, 'pct': 0.0028831865111355005}
+{'bin': '25-30m', 'cnt': 54050, 'pct': 0.0021873593695872465}
+{'bin': '0.5-1h', 'cnt': 171980, 'pct': 0.006959890182823583}
+{'bin': '1-8h', 'cnt': 127532, 'pct': 0.005161115913454223}
+{'bin': '8-24h', 'cnt': 5013, 'pct': 0.0002028720170164823}
+{'bin': '>24h', 'cnt': 154, 'pct': 6.2322542630237926e-06}

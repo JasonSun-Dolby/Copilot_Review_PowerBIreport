@@ -1,0 +1,43 @@
+--- MAX DURATION (hours) by month vs monthly_video_recordings_aggregated ---
+  2025-11: bq=10.27154444  powerbi=10.27154444  delta=0
+  2025-12: bq=9.757368611  powerbi=9.757368611  delta=0
+  2026-01: bq=28.50047309  powerbi=28.50047309  delta=0
+  2026-02: bq=5.834038889  powerbi=5.834038889  delta=0
+  2026-03: bq=6.203448889  powerbi=6.203448889  delta=0
+  2026-04: bq=9.574871962  powerbi=9.574871962  delta=0
+  2026-05: bq=28.01422743  powerbi=28.01422743  delta=0
+  OVERALL: MATCH
+--- MEAN DURATION (sec) by month ---
+  2025-11: bq=93.36897326  powerbi=17459.998  delta=-17366.6  *** MISMATCH
+  2025-12: bq=86.97427383  powerbi=16177.21493  delta=-16090.2  *** MISMATCH
+  2026-01: bq=86.34027585  powerbi=16836.35379  delta=-16750  *** MISMATCH
+  2026-02: bq=94.42622125  powerbi=18035.40826  delta=-17941  *** MISMATCH
+  2026-03: bq=91.15417328  powerbi=17683.90962  delta=-17592.8  *** MISMATCH
+  2026-04: bq=100.1179346  powerbi=18922.28963  delta=-18822.2  *** MISMATCH
+  2026-05: bq=102.3614513  powerbi=19653.39866  delta=-19551  *** MISMATCH
+  OVERALL: MISMATCH
+--- MEDIAN DURATION (sec) by month ---
+  2025-11: bq=40.00779343  powerbi=9085.549493  delta=-9045.54  *** MISMATCH
+  2025-12: bq=40.32108348  powerbi=8088.367775  delta=-8048.05  *** MISMATCH
+  2026-01: bq=40.213  powerbi=8209.920223  delta=-8169.71  *** MISMATCH
+  2026-02: bq=38.72000122  powerbi=9378.135638  delta=-9339.42  *** MISMATCH
+  2026-03: bq=39.467  powerbi=8606.057599  delta=-8566.59  *** MISMATCH
+  2026-04: bq=38.912  powerbi=8589.370712  delta=-8550.46  *** MISMATCH
+  2026-05: bq=40.75600015  powerbi=9803.517589  delta=-9762.76  *** MISMATCH
+  OVERALL: MISMATCH
+--- video_duration_view schema ---
+  event_timestamp	INT64
+  country	STRING
+  duration_sec	FLOAT64
+--- HISTOGRAM from video_duration_view vs PowerBI ---
+  0-1m: bq=0.6306733961  powerbi=0.6348252918  delta=-0.0041519  *** MISMATCH
+  1-5m: bq=0.3283171685  powerbi=0.3259909991  delta=0.00232617  *** MISMATCH
+  5-10m: bq=0.02746159995  powerbi=0.02659326527  delta=0.000868335
+  10-15m: bq=0.005845677854  powerbi=0.005503870771  delta=0.000341807
+  15-20m: bq=0.002492582628  powerbi=0.002301027749  delta=0.000191555
+  20-25m: bq=0.001385972983  powerbi=0.001296770868  delta=8.92021e-05
+  25-30m: bq=0.0008575719319  powerbi=0.0007738661175  delta=8.37058e-05
+  0.5-1h: bq=0.002112685246  powerbi=0.001903603682  delta=0.000209082
+  1-8h: bq=0.0008465444317  powerbi=0.0008014307266  delta=4.51137e-05
+  8-24h: bq=6.248916778e-06  powerbi=8.639653624e-06  delta=-2.39074e-06
+  >24h: bq=5.513750098e-07  powerbi=1.234236232e-06  delta=-6.82861e-07

@@ -1,0 +1,64 @@
+===SCHEMA monthly_video_recordings_aggregated===
+  month	DATE
+  country	STRING
+  num_tracks	INT64
+  total_duration_sec	FLOAT64
+  min_duration_sec	FLOAT64
+  max_duration_sec	FLOAT64
+  mean_duration_sec	FLOAT64
+  stddev_duration_sec	FLOAT64
+  median_duration_sec	FLOAT64
+  num_lossless	INT64
+===SAMPLE monthly_video_recordings_aggregated (Nov 2025 top 5)===
+{'month': datetime.date(2025, 11, 1), 'country': 'India', 'num_tracks': 163057, 'mean_duration_sec': 68.59681032586442, 'median_duration_sec': 36.203, 'total_duration_sec': 11185190.101304475}
+{'month': datetime.date(2025, 11, 1), 'country': 'Indonesia', 'num_tracks': 40059, 'mean_duration_sec': 99.74969290854233, 'median_duration_sec': 48.981, 'total_duration_sec': 3995872.9482232975}
+{'month': datetime.date(2025, 11, 1), 'country': 'United States', 'num_tracks': 32257, 'mean_duration_sec': 161.57601407221472, 'median_duration_sec': 65.963, 'total_duration_sec': 5211957.485927429}
+{'month': datetime.date(2025, 11, 1), 'country': 'Bangladesh', 'num_tracks': 21450, 'mean_duration_sec': 55.152281160322154, 'median_duration_sec': 26.773, 'total_duration_sec': 1183016.4308889096}
+{'month': datetime.date(2025, 11, 1), 'country': 'Brazil', 'num_tracks': 10208, 'mean_duration_sec': 95.61749980759284, 'median_duration_sec': 53.12, 'total_duration_sec': 976063.4380359079}
+===RATIO CHECK===
+{'month': '2025-11', 'avg_mean_sec': 93.36897325747668, 'avg_mean_hr': 0.025935825904854635, 'avg_mean_ms': 93368.97325747668, 'avg_mean_if_ms_to_sec': 0.09336897325747669, 'ratio_to_target': 187.0000000091236}
+{'month': '2025-12', 'avg_mean_sec': 86.9742738295131, 'avg_mean_hr': 0.02415952050819808, 'avg_mean_ms': 86974.2738295131, 'avg_mean_if_ms_to_sec': 0.08697427382951309, 'ratio_to_target': None}
+{'month': '2026-01', 'avg_mean_sec': 86.34027585396407, 'avg_mean_hr': 0.023983409959434463, 'avg_mean_ms': 86340.27585396408, 'avg_mean_if_ms_to_sec': 0.08634027585396407, 'ratio_to_target': None}
+{'month': '2026-02', 'avg_mean_sec': 94.42622125358629, 'avg_mean_hr': 0.02622950590377397, 'avg_mean_ms': 94426.2212535863, 'avg_mean_if_ms_to_sec': 0.0944262212535863, 'ratio_to_target': None}
+{'month': '2026-03', 'avg_mean_sec': 91.15417328045868, 'avg_mean_hr': 0.0253206036890163, 'avg_mean_ms': 91154.17328045868, 'avg_mean_if_ms_to_sec': 0.09115417328045868, 'ratio_to_target': None}
+{'month': '2026-04', 'avg_mean_sec': 100.11793456319569, 'avg_mean_hr': 0.02781053737866547, 'avg_mean_ms': 100117.93456319568, 'avg_mean_if_ms_to_sec': 0.10011793456319569, 'ratio_to_target': None}
+{'month': '2026-05', 'avg_mean_sec': 102.36145133377518, 'avg_mean_hr': 0.028433736481604216, 'avg_mean_ms': 102361.45133377519, 'avg_mean_if_ms_to_sec': 0.10236145133377518, 'ratio_to_target': None}
+===VIDEO TABLES===
+  2021ALL_stoppedRecordingVideoFiles_audio_extension
+  2021ALL_stoppedRecordingVideoFiles_camera
+  2021ALL_stoppedRecordingVideoFiles_camera_orientation
+  2021ALL_stoppedRecordingVideoFiles_duration
+  2021ALL_stoppedRecordingVideoFiles_duration_cleanedData
+  2021ALL_stoppedRecordingVideoFiles_microhone_cleanedData
+  2021ALL_stoppedRecordingVideoFiles_microphone
+  2021ALL_stoppedRecordingVideoFiles_microphone_model_cleanedData
+  2021ALL_stoppedRecordingVideoFiles_microphone_model_string
+  2021ALL_stoppedRecordingVideoFiles_video_extension
+  2021ALL_stoppedRecordingVideoFiles_video_extension_cleaneData
+  daily_video_exports_aggregated
+  daily_video_imports_aggregated
+  monthly_device_summary_video
+  monthly_device_summary_video_aggregated
+  monthly_os_app_version_video
+  monthly_os_app_version_video_aggregated
+  monthly_video_exports
+  monthly_video_exports_aggregated
+  monthly_video_imports
+  monthly_video_imports_aggregated
+  monthly_video_recordings
+  monthly_video_recordings_aggregated
+  video_bulk_exports
+  video_duration_view
+  video_recording_events_stripped
+===HIST from video_duration_view with cutoff===
+  0-1m: pct=0.6306100415  delta=-0.00421525
+  1-5m: pct=0.3283991648  delta=0.00240817
+  5-10m: pct=0.02743725831  delta=0.000843993
+  10-15m: pct=0.005844747735  delta=0.000340877
+  15-20m: pct=0.002496821642  delta=0.000195794
+  20-25m: pct=0.001383953633  delta=8.71828e-05
+  25-30m: pct=0.0008574434538  delta=8.35773e-05
+  0.5-1h: pct=0.002114989898  delta=0.000211386
+  1-8h: pct=0.0008486807135  delta=4.725e-05
+  8-24h: pct=6.339003572e-06  delta=-2.30065e-06
+  >24h: pct=5.593238446e-07  delta=-6.74912e-07
